@@ -17,8 +17,15 @@
   }
 }
 
+@font-face {
+  font-family: 'Jersey';
+  src: url('/jersey25.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Jersey', Arial, Helvetica, sans-serif;
 }
