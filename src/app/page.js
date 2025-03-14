@@ -63,7 +63,7 @@ export default function Home() {
 
   const handleDownload = (filename) => {
     const link = document.createElement('a');
-    link.href = `/builds/${filename}`;
+    link.href = `/builds/${encodeURIComponent(filename)}`;
     link.download = filename;
     document.body.appendChild(link);
     link.click();

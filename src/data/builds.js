@@ -19,7 +19,7 @@ export const builds = [
 	"mac-lts-1.8.app",
     "win-lts-1.3.zip",
     "win-lts-1.5.1.zip",
-    "win-lts-1.5.2.zip"
+    "win-lts-1.5.2.zip",
     "win-dev-1.6.zip",
     "win-lts-1.7.zip",
     "win-lts-1.7.1.zip",
