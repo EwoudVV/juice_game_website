@@ -21,10 +21,10 @@ export default function Home() {
   const [showAllDevLogs, setShowAllDevLogs] = useState(false);
 
   const processedBuilds = builds.map(file => {
-    const match = file.match(/(mac|win|linux)-(its|dev)-(\d+\.\d+(?:\.\d+)?)/i);
+    const match = file.match(/(mac|win|linux)-(lts|dev)-(\d+\.\d+(?:\.\d+)?)/i);
     return {
       platform: match[1],
-      type: match[2] === 'its' ? 'LTS' : 'Dev',
+      type: match[2] === 'lts' ? 'LTS' : 'Dev',
       version: match[3],
       versionParts: parseVersion(match[3]),
       file: file.includes('.') ? file : `${file}.app`
