@@ -7,6 +7,7 @@ export const builds = [
     "linux-lts-1.7.zip",
     "linux-lts-1.7.1.zip",
     "linux-lts-1.8.zip",
+    "linux-lts-1.9.zip",
     "mac-dev-1.0.app",
     "mac-dev-1.1.app",
     "mac-lts-1.3.app",
@@ -17,11 +18,13 @@ export const builds = [
 	"mac-lts-1.7.app",
 	"mac-lts-1.7.1.app",
 	"mac-lts-1.8.app",
+    "mac-lts-1.9.app.zip",
     "win-lts-1.3.zip",
     "win-lts-1.5.1.zip",
     "win-lts-1.5.2.zip",
     "win-dev-1.6.zip",
     "win-lts-1.7.zip",
     "win-lts-1.7.1.zip",
-    "win-lts-1.8.zip"
+    "win-lts-1.8.zip",
+    "win-lts-1.9.zip"
   ];
