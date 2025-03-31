@@ -27,7 +27,7 @@ export default function Home() {
       type: match[2] === 'lts' ? 'LTS' : 'Dev',
       version: match[3],
       versionParts: parseVersion(match[3]),
-      file: file.includes('.') ? file : `${file}.app`
+      file: file.includes('.') ? file : `${file}.zip`
     };
   });
 
